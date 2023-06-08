@@ -37,19 +37,19 @@ print(advancedUser.name, advancedUser.surname, advancedUser.hello)
 class Calculator {
     var result: Float = 0
     
-    func sum(a: Float?, b: Float?)->Float {
+    func sum(a: Float?, b: Float?) -> Float {
         return a!+b!
     }
     
-    func subtraction(_ a: Float?, _ b: Float?)->Float {
+    func subtraction(_ a: Float?, _ b: Float?) -> Float {
         return b!-a!
     }
     
-    func multiplication(_ a: Float?, _ b: Float?)->Float {
+    func multiplication(_ a: Float?, _ b: Float?) -> Float {
         return a!*b!
     }
     
-    func division(_ a: Float?, _ b: Float?)->Float {
+    func division(_ a: Float?, _ b: Float?) -> Float {
         if b! == 0 {
           return result
         }
