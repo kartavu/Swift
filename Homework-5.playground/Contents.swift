@@ -73,7 +73,7 @@ protocol Phone {
 }
 
 extension Phone {
-    mutating func Model(){
+    mutating func Model() {
         model = model ?? 0.0
     }
 }
