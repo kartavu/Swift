@@ -43,7 +43,7 @@ enum Mistake {
 
 for _ in 1...1 {
     mistake = Int.random(in: 200...206)
-    print("Ошибки:",mistake)
+    print("Ошибки:", mistake)
 }
 
 if mistake == 200 {
