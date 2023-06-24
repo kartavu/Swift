@@ -27,7 +27,8 @@ let filteredUsers = users.filter { user in
 print(filteredUsers)
 
 // Выше найдя пользователей старше 18, я создаю map чтобы найти имена этих пользователей, он ннайдет двух пользователей с именами Mike и nil, но nil он заменит на ""
-let userName = filteredUsers.map { $0?.name ?? ""
+let userName = filteredUsers.map { 
+    $0?.name ?? "" 
 }
 print()
 print(userName)
