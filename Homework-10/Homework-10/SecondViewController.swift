@@ -12,9 +12,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Createlabel()
-        Createbutton()
-        Createtext()
+        createlabel()
+        createbutton()
+        createtext()
         
         let duckGIf = UIImage.gifImageWithName("Lol") // ставлю гифку утки
         gifImage.image = duckGIf
@@ -32,7 +32,7 @@ class SecondViewController: UIViewController {
     let sixthValue = false
     let seventhValue = false
     
-    func Createlabel() {
+    func createlabel() {
         
         label = UILabel(frame: CGRect(x: 70, y: 50, width: 250, height: 100))
         view.addSubview(label)
@@ -50,7 +50,7 @@ class SecondViewController: UIViewController {
         }
     }
     
-    func Createbutton() {
+    func createbutton() {
         
         button = UIButton(frame: CGRect(x: 125, y: 770, width: 150, height: 50))
         
@@ -100,7 +100,7 @@ class SecondViewController: UIViewController {
         }
     }
     
-    func Createtext() {
+    func createtext() {
         
         text = UITextView(frame: CGRect(x: 20, y: 180, width: 350, height: 30))
         
