@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  Notely
+
+  Created by Данил Соколов on 13.09.2023.
+  
+*/
+
+"main.appName" = "Notely";
+"main.templateVC.helloLabel" = "Hello world";
+
+"main.profileEditVC.title" = "Профиль";
+"main.profileEditVC.saveButtonTitle" = "Сохранить";
+
+"main.profileInfoVM.editCell.title.name" = "Имя";
+"main.profileInfoVM.editCell.title.surname" = "Фамилия";
+"main.profileInfoVM.editCell.title.about" = "О себе";
+"main.profileInfoVM.editCell.placeholder.name" = "Введите имя";
+"main.profileInfoVM.editCell.placeholder.surname" = "Введите фамилию";
+"main.profileInfoVM.editCell.placeholder.about" = "Расскажите о себе";
+
+"main.PublicProfile.noNotesLabel.labelText" = "No Notes";
+
+"auth.navigation.title" = "Назад";
+
+"auth.segmentedControl.firstItem" = "Авторизация";
+"auth.segmentedControl.secondItem" = "Регистрация";
+
+"auth.enterButton.logText" = "Войти";
+"auth.enterButton.regText" = "Зарегистрироваться";
+
+"auth.infoLabel.text" = "После авторизации вы сможете синхронизировать заметки, а также получите возможность делать свои заметки публичными.";
+
+"auth.autharizationVM.editCell.title.mail" = "Почта";
+"auth.autharizationVM.editCell.title.password" = "Пароль";
+"auth.autharizationVM.editCell.placeholder.mail" = "Введите почту";
+"auth.autharizationVM.editCell.placeholder.password" = "********";
+
+"auth.registrationVM.editCell.title.mail" = "Почта";
+"auth.registrationVM.editCell.title.password" = "Пароль";
+"auth.registrationVM.editCell.title.name" = "Имя";
+"auth.registrationVM.editCell.title.surname" = "Фамилия";
+"auth.registrationVM.editCell.title.about" = "О себе";
+"auth.registrationVM.editCell.placeholder.mail" = "Ваша почта";
+"auth.registrationVM.editCell.placeholder.password" = "Введите пароль";
+"auth.registrationVM.editCell.placeholder.name" = "Ваше имя";
+"auth.registrationVM.editCell.placeholder.surname" = "Ваша фамилия";
+"auth.registrationVM.editCell.placeholder.about" = "Расскажите о себе";
+
+"auth.segmentedControl.firstItem" = "Авторизация";
+"auth.segmentedControl.secondItem" = "Регистрация";
+"auth.infoLabel.authText" = "После авторизации вы сможете синхронизировать заметки, а также получите возможность делать свои заметки публичными.";
+"auth.infoLabel.regText" = "Зарегистрировавшись вы сможете синхронизировать заметки, а также получите возможность делать свои заметки публичными.";
+
+"main.MainVC.segmentedControl.itemFirst" = "Мои";
+"main.MainVC.segmentedControl.itemSecond" = "Публичные";
+"main.MainVC.actionSheet.title" = "Выберите действие";
+"main.MainVC.actionAddFolder.title" = "Добавить папку";
+"main.MainVC.actionSort.alphTitle" = "Сортировать по алфавиту";
+"main.MainVC.actionSort.dateTitle" = "Сортировать по дате";
+"main.MainVC.cancelAction.title" = "Отмена";
+"main.MainVC.cancelAction.setValue.forKey" = "titleTextColor";
+"main.MainVC.alertController.title" = "Добавить папку";
+"main.MainVC.alertController.textField.placeholder" = "Название папки";
+"main.MainVC.addAction.title" = "Добавить";
+"main.MainVC.notes.lable" = "замет";
+"main.MainVC.folders.lable" = "пап";
+"main.MainVC.nounDeclensionOne.lable" = "ка";
+"main.MainVC.nounDeclensionTwo.lable" = "ки";
+"main.MainVC.nounDeclensionMany.lable" = "ок";
+
+"main.NoContentView.titleLable.lableText" = "У вас еще нет заметок";
+"main.NoContentView.descriptionLable.lableText" = "Здесь будут отображаться заметки, которые Вы создадите";
+
+"main.NoteVC.titleTextField.placeholder" = "Заголовок";
+"main.NoteVC.textView.placeholder" = "Введите текст...";
+"valid.mailErrorLessMinSymbols" = "Логин должен состоять из 4 или более символов";
+"valid.mailErrorMoreMaxSymbols" = "Логин должен состоять из 40 или менее символов";
+"valid.mailErrorInvalid" = "Неверная почта";
+"valid.passwordErrorLessMinSymbols" = "Пароль должен состоять из 6 или более символов";
+"valid.passwordErrorMoreMaxSymbols" = "Логин должен состоять из 12 или менее символов";
+"valid.passwordErrorNoDigit" = "Пароль должен содержать хотя бы одну цифру";
+"valid.passwordErrorNoChar" = "Пароль должен содержать хотя бы одну букву";
+"valid.passwordErrorNoSymbol" = "Пароль должен содержать хотя бы один символ";
+"valid.passwordErrorSpace" = "Пароль не должен содержать пробелы";
+"valid.passwordErrorEmoji" = "Пароль не должен содержать эмоджи";
+
+
+
+
+
